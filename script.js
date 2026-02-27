@@ -1,6 +1,6 @@
 let student = {
 	name : "surya" ,
-	age : 33,
+	// age : 33,
 }
 function getkeys (student){
 		return (Object.keys(student));
