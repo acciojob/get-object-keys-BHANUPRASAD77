@@ -2,8 +2,7 @@ let student = {
 	name : "surya" ,
 	age : 33,
 }
-function getkeys(obj){
-	retun Object.keys(obj);
+function getkeys (student){
+		return (Object.keys(student));
 }
-console.log(getKeys(student));
-	// console.log(getkeys(student))
+console.log(getkeys(student));
