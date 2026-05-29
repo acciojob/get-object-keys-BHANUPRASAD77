@@ -1,6 +1,6 @@
 function getkeys (student){
-   student = {
-	name : "surya",
+return (Object.keys(student));
 }
-		return (Object.keys(student));
-console.log(getkeys());
+  let mstudent = {
+	name : "surya", age : 21};
+console.log(getkeys(mstudent));
