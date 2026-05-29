@@ -1,5 +1,5 @@
 function getkeys (student){
-return (Object.keys(student));
+return Object.keys(student);
 }
   let mstudent = {
 	name : "surya", age : 21};
